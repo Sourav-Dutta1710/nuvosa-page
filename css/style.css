@@ -1,0 +1,78 @@
+.body{
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif !important;
+}
+
+.expertTag{
+    transform: rotate(20deg);
+}
+
+.commonText{
+    color: #6F77F1;
+}
+
+.commonColour{
+    background-color: #FAD725 !important;
+}
+
+.commonBackground{
+    background-color: #FAFAFA;
+}
+
+.item{
+    box-shadow: 0px 8.78079px 11.7077px -2.92693px rgba(17, 24, 39, 0.1),
+ 0px 2.92693px 4.39039px -1.46346px rgba(17, 24, 39, 0.05);
+}
+
+.needItem:hover{
+    box-shadow: 5px 25px 37px rgba(2, 22, 5, 0.06);
+}
+
+a:hover{
+   border-bottom: 2px solid #6F77F1;
+}
+
+.optimise:hover{
+    border-bottom: 2px solid #6F77F1;
+}
+
+.one{
+    background-image: url("../images/one.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.two{
+    background-image: url("../images/two.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.three{
+    background-image: url("../images/three.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.four{
+    background-image: url("../images/four.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media(max-width:425p){
+
+}
+
+@media(min-width:768p){
+   
+}
+
+@media(min-width:1024p)
+{
+  
+}
+
+@media(min-width:1440p){
+ 
+}
