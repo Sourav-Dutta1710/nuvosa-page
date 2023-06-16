@@ -3,16 +3,35 @@
   font-family: 'Poppins',sans-serif !important;
 }
 
+.hero{
+  position:relative;
+}
+
+.link:hover{
+    cursor: pointer;
+}
+
 .expertTag{
-    transform: rotate(20deg);
+    transform: rotate(-15deg);
+    border: 1px solid #6F77F1;
+    position:absolute;
+    margin-left:1rem;
 }
 
 .commonText{
-    color: #6F77F1;
+    color:#6F77F1;
+}
+
+p{
+    color:grey!important;
 }
 
 .commonColour{
     background-color: #FAD725 !important;
+}
+
+.differentColour{
+    background-color: #6F77F1 !important;
 }
 
 .commonBackground{
@@ -59,6 +78,56 @@ a:hover{
     background-repeat: no-repeat;
     background-position: center;
 }
+.plan {
+    transition-duration: 2s;
+
+}
+
+.plan:hover{
+    background-color: #6F77F1;
+    .content{
+        color:white;
+    }
+    .planButton{
+        background-color:  #FAD725 !important;
+    } 
+    transform: scale(1.1,1.1);  
+
+}
+
+.team:hover{
+    .content{
+        color:#6F77F1;
+    }
+    box-shadow: 0px 8.78079px 11.7077px -2.92693px rgba(17, 24, 39, 0.1),
+ 0px 2.92693px 4.39039px -1.46346px rgba(17, 24, 39, 0.05);
+ transform: scale(1.1,1.1); 
+
+}
+
+.team{
+    transition-duration: 2s;
+}
+
+.hero{
+    font-size: 40px;
+}
+
+.clients{
+    background: url("../images/comma.png");
+    background-repeat: no-repeat;
+}
+
+.perksItem{
+transition-duration: 2s;
+}
+
+.perksItem:hover {
+    box-shadow: 0px 8.78079px 11.7077px -2.92693px rgba(17, 24, 39, 0.1),
+ 0px 2.92693px 4.39039px -1.46346px rgba(17, 24, 39, 0.05);
+ transform: scale(1.1,1.1);  
+}
+
 
 @media(max-width:425p){
 

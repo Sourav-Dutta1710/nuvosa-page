@@ -10,6 +10,11 @@
       src="https://kit.fontawesome.com/6dc7929f7c.js"
       crossorigin="anonymous"
     ></script>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"
+  ></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -18,9 +23,9 @@
     />
   </head>
   <body>
-    <nav class="navbar navbar-expand-md">
+    <nav class="navbar navbar-expand-lg container">
       <div class="container-fluid">
-        <img src="./images/nuvosa.png" alt="symbol" />
+        <img class="ps-4" src="./images/nuvosa.png" alt="symbol" />
         <button
           class="navbar-toggler"
           type="button"
@@ -68,13 +73,16 @@
     <!-- Navbar End -->
 
     <!-- Hero Section Start -->
-    <section>
-      <div class="hero d-flex flex-lg-row flex-column">
+    <section class="container">
+      <div class="d-flex flex-lg-row flex-column">
         <div class="w-100">
-          <h1 class="p-5 pb-0 fw-bolder">
-            Increase your web traffic with our
-            <span class="expertTag commonText">expert</span>
-          </h1>
+          <div class="d-flex">
+            <h1 class="p-5 pb-0 fw-bolder">
+            Increase your web<br>
+            traffic with our 
+            <span class="expertTag commonText p-2 pt-0 fs-3 fw-medium">expert</span>
+            </h1>
+          </div>
           <p class="p-5">
             It is a long established fact that a reader will be distracted by
             the readable content of a page when It is a long . It is a long
@@ -88,7 +96,7 @@
           >
             Get Started
           </button>
-          <img src="./images/tour.png" alt="tour" />
+          <img class="m-5" src="./images/tour.png" alt="tour" />
         </div>
         <div class="w-100">
           <img
@@ -102,30 +110,36 @@
     <!-- Hero Section End -->
 
     <!-- Services Start -->
-    <section>
+    <section class="container">
       <div
-        class="services d-flex flex-lg-row flex-column p-5 gap-5 justify-content-around"
+        class="services d-flex flex-lg-row flex-column gap-5 justify-content-around"
       >
         <div class="item p-xl-5 m-xl-5">
-          <img src="./images/message.png" alt="symbol" />
-          <h3>Social Media Management</h3>
-          It is a long established fact that a reader will be distracted by the
-          readable content . It is a long established fact that .
-          <p class="text-end pe-2">&rarr;</p>
+          <div class="d-flex pl-2">
+            <img src="./images/message.png" alt="symbol" />
+            <h3 class="ps-3 pt-3">Social Media Management</h3>
+          </div>
+          <p>It is a long established fact that a reader will be distracted by the
+            readable content . It is a long established fact that .</p>
+          <p class="link text-end pe-2">&rarr;</p>
         </div>
         <div class="item p-xl-5 m-xl-5">
+          <div class="d-flex">
           <img src="./images/email.png" alt="symbol" />
-          <h3>Email Marketing</h3>
-          It is a long established fact that a reader will be distracted by the
-          readable content . It is a long established fact that .
-          <p class="text-end pe-2">&rarr;</p>
+          <h3 class="pt-3">Email Marketing</h3>
+          </div>
+          <p>It is a long established fact that a reader will be distracted by the
+          readable content . It is a long established fact that .</p>
+          <p class="link text-end pe-2">&rarr;</p>
         </div>
         <div class="item p-xl-5 m-xl-5">
+          <div class="d-flex pl-2">
           <img src="./images/seo.png" alt="symbol" />
-          <h3>SEO Management</h3>
-          It is a long established fact that a reader will be distracted by the
-          readable content . It is a long established fact that a reader.
-          <p class="text-end pe-2">&rarr;</p>
+          <h3 class="pt-3">SEO Management</h3>
+          </div>
+          <p>It is a long established fact that a reader will be distracted by the
+          readable content . It is a long established fact that a reader.</p>
+          <p class="link text-end pe-2">&rarr;</p>
         </div>
       </div>
     </section>
@@ -133,39 +147,45 @@
 
     <!-- Optimising Start -->
     <section>
-      <h2 class="px-5">
+      <div class="d-xl-flex">
+      <div class="px-4"></div>
+      <h2 class="px-5 pt-2">
         Optimising Your <span class="commonText">Website</span>
       </h2>
+    </div>
+    <div class="d-xl-flex">
+      <div class="px-4"></div>
       <p class="px-5 my-5">
         It is a long established fact that a reader will be distracted by the
         readable content of a page when It is a long .
       </p>
+      </div>
       <div
         class="services d-flex flex-lg-row flex-column p-5 gap-5 gap-xl-0 justify-content-around"
       >
         <div class="item one optimise p-xl-5 m-xl-5">
           <img src="./images/search.png" alt="symbol" />
-          <h3 class="pt-5">Keyword Research</h3>
-          It is a long established fact that a reader will be distracted by the
-          It is a long established .
+          <h3 class="pt-5 pb-2">Keyword Research</h3>
+          <p>It is a long established fact that a reader will be distracted by the
+          It is a long established .</p>
         </div>
         <div class="item two optimise p-xl-5 m-xl-5">
           <img src="./images/content.png" alt="symbol" />
-          <h3 class="pt-5">content Optimisation</h3>
-          It is a long established fact that a reader will be distracted by the
-          It is a long established .
+          <h3 class="pt-5 pb-2">content Optimisation</h3>
+          <p>It is a long established fact that a reader will be distracted by the
+          It is a long established .</p>
         </div>
         <div class="item three optimise p-xl-5 m-xl-5">
           <img src="./images/target.png" alt="symbol" />
-          <h3 class="pt-5">Target Analysis</h3>
-          It is a long established fact that a reader will be distracted by the
-          It is a long established .
+          <h3 class="pt-5 pb-2">Target Analysis</h3>
+          <p>It is a long established fact that a reader will be distracted by the
+          It is a long established .</p>
         </div>
         <div class="item four optimise p-xl-5 m-xl-5">
           <img src="./images/like.png" alt="symbol" />
-          <h3 class="pt-5">Continuous Testing</h3>
-          It is a long established fact that a reader will be distracted by the
-          It is a long established .
+          <h3 class="pt-5 pb-2">Continuous Testing</h3>
+          <p>It is a long established fact that a reader will be distracted by the
+          It is a long established .</p>
         </div>
       </div>
     </section>
@@ -178,7 +198,7 @@
         <div class="w-100">
           <h1 class="p-5 pb-0">
             Perfect Solution For Your
-            <span class="expertTag commonText">Business</span>
+            <span class="commonText">Business</span>
           </h1>
           <p class="py-3 px-5">
             It is a long established fact that a reader will be distracted by
@@ -214,21 +234,21 @@
         <div class="mx-5 px-5"></div>
         <div class="item p-xl-5 my-xl-5">
           <img src="./images/grow.png" alt="symbol" />
-          <h3>Grow Your Business</h3>
-          It is a long established fact that a reader will be distracted by.
-          <p><a href="#">Read More...</a></p>
+          <h6 class="pt-3 fw-bolder">Grow Your Business</h6>
+          <p>It is a long established fact that a reader will be distracted by.</p>
+          <p class="text-primary link">Read More...</p>
         </div>
         <div class="item p-xl-5 m-xl-5">
           <img src="./images/get.png" alt="symbol" />
-          <h3>Get Quality leads</h3>
-          It is a long established fact that a reader will be distracted by.
-          <p><a href="#">Read More...</a></p>
+          <h6 class="pt-3 fw-bolder">Get Quality leads</h6>
+          <p>It is a long established fact that a reader will be distracted by.</p>
+          <p class="text-primary link">Read More...</p>
         </div>
         <div class="item p-xl-5 m-xl-5">
           <img src="./images/drive.png" alt="symbol" />
-          <h3>Drive more sales</h3>
-          It is a long established fact that a reader will be distracted by.
-          <p><a href="#">Read More...</a></p>
+          <h6 class="pt-3 fw-bolder">Drive more sales</h6>
+          <p>It is a long established fact that a reader will be distracted by.</p>
+          <p class="text-primary link">Read More...</p>
         </div>
         <div class="mx-5 px-5"></div>
       </div>
@@ -242,7 +262,7 @@
       >
         <div class="mx-5 px-5"></div>
         <div>
-          <h2 class="px-5 mx-5 text-center">
+          <h2 class="px-5 text-center">
             Why You Should <span class="commonText">Choose Us.</span>
           </h2>
           <p class="px-5 mt-4 text-center">
@@ -261,41 +281,41 @@
       <div
         class="commonBackground d-flex flex-lg-row flex-column px-5 gap-5 gap-xl-0 justify-content-evenly"
       >
-        <div class="mx-5 px-5"></div>
-        <div class="item p-xl-5 my-xl-5">
+        <div class="mx-5 mx-lg-0 px-5"></div>
+        <div class="perksItem p-xl-5 my-xl-5">
           <img class="w-100" src="./images/see.png" alt="symbol" />
           <h3>See optimazadion</h3>
-          It is a long established fact that a reader will be distracted by.It
-          is a long established.
+          <p>It is a long established fact that a reader will be distracted by.It
+          is a long established.</p>
           <div class="text-center">
             <button class="btn btn-warning commonColour py-2 my-3">
               Learn More
             </button>
           </div>
         </div>
-        <div class="item p-xl-5 m-xl-5">
+        <div class="perksItem p-xl-5 m-xl-5">
           <img class="w-100" src="./images/keyword.png" alt="symbol" />
           <h3>Keyword research</h3>
-          It is a long established fact that a reader will be distracted by.It
-          is a long established.
+          <p>It is a long established fact that a reader will be distracted by.It
+          is a long established.</p>
           <div class="text-center">
             <button class="btn btn-warning commonColour py-2 my-3">
               Learn More
             </button>
           </div>
         </div>
-        <div class="item p-xl-5 m-xl-5">
+        <div class="perksItem p-xl-5 m-xl-5">
           <img class="w-75" src="./images/social.png" alt="symbol" />
           <h3>Social marketing</h3>
-          It is a long established fact that a reader will be distracted by.It
-          is a long established.
+         <p>It is a long established fact that a reader will be distracted by.It
+          is a long established.</p>
           <div class="text-center">
             <button class="btn btn-warning commonColour py-2 my-3">
               Learn More
             </button>
           </div>
         </div>
-        <div class="mx-5 px-5"></div>
+        <div class="mx-5 mx-lg-0 px-5"></div>
       </div>
     </section>
     <!-- Perks End -->
@@ -313,36 +333,36 @@
         <div class="w-100">
           <h1 class="p-5 pb-0">
             You Make Ask What SEO & Why Do You
-            <span class="expertTag commonText">Need It? </span>
+            <span class="commonText">Need It? </span>
           </h1>
           <p class="py-3 px-5">
             It is a long established fact that a reader will be distracted by
             the readable content . It is a long established fact that a reader
             .It is a long.
           </p>
-          <div class="d-flex flex-column">
-            <div class="needItem d-flex gap-4 m-3">
+          <div class="d-flex flex-column justify-content-center">
+            <div class="needItem d-flex gap-4 m-3 pe-5">
               <div><img src="./images/globe.png" alt="symbol" /></div>
               <div>
                 <h3>Social media marketing</h3>
-                It is a long established fact that a reader will be distracted
-                by the.
+                <p>It is a long established fact that a reader will be distracted
+                by the.</p>
               </div>
             </div>
-            <div class="needItem d-flex gap-4 m-3">
+            <div class="needItem d-flex gap-4 m-3 pe-5">
               <div><img src="./images/mail.png" alt="symbol" /></div>
               <div>
                 <h3>Email marketing</h3>
-                It is a long established fact that a reader will be distracted
-                by the.
+                <p>It is a long established fact that a reader will be distracted
+                by the.</p>
               </div>
             </div>
-            <div class="needItem d-flex gap-4 m-3">
+            <div class="needItem d-flex gap-4 m-3 pe-5">
               <div><img src="./images/pie.png" alt="symbol" /></div>
               <div>
                 <h3>SEO optimization</h3>
-                It is a long established fact that a reader will be distracted
-                by the.
+                <p>It is a long established fact that a reader will be distracted
+                by the.</p>
               </div>
             </div>
           </div>
@@ -353,32 +373,30 @@
 
     <!-- Stats Start -->
     <section>
-      <div
-        class="stats d-flex flex-lg-row flex-column py-5 gap-0 justify-content-around align-items-center"
-      >
+      <div class="stats d-flex flex-lg-row flex-column py-5 gap-0 justify-content-around align-items-center">
         <div class="mx-5 px-5"></div>
-        <div>
+        <div class="py-3 px-2">
           <h2 class="bolder fs-1">86</h2>
           Happy Clients
         </div>
-        <div class="px-2 pt-3">
+        <div class="px-2 py-3">
           <i class="fa-sharp fa-solid fa-circle text-danger"></i>
         </div>
-        <div class="px-2">
+        <div class="px-2 py-3">
           <h2 class="bolder fs-1">118</h2>
           Project Done
         </div>
-        <div class="px-2 pt-3">
+        <div class="px-2 py-3">
           <i class="fa-sharp fa-solid fa-circle text-success"></i>
         </div>
-        <div class="px-2">
+        <div class="px-2 py-3">
           <h2 class="bolder fs-1">6+</h2>
           Years Of Experience
         </div>
-        <div class="px-2 pt-3">
+        <div class="px-2 py-3">
           <i class="fa-sharp fa-solid fa-circle text-warning"></i>
         </div>
-        <div class="px-2">
+        <div class="px-2 py-3">
           <h2 class="bolder fs-1">14</h2>
           National Awards
         </div>
@@ -386,10 +404,281 @@
       </div>
     </section>
     <!-- Stats End -->
+
+    <!-- Solution Start -->
+    <section>
+      <div class="d-flex flex-lg-row flex-column">
+        <div class="px-5"></div>
+        <div class="w-100">
+          <h1 class="p-5 pb-0">
+            Check Your Website 
+            <span class="commonText">Speed</span>
+          </h1>
+          <p class="py-3 px-5">
+            It is a long established fact that a reader will be distracted by the readable content .
+            It is a long established fact that a reader .It is a long.
+          </p>
+          <form>
+          <div class="d-flex flex-xl-row flex-column">
+              <div class="ms-5 my-2"><input type="text" class="form-control" placeholder="Web URL"></div>
+              <div class="ms-5 my-2 ms-xl-0"><input type="email" class="form-control" placeholder="Email Adress"></div>
+              <div><button type="button" class="btn btn-warning commonColour py-2 px-4 mx-5 mx-xl-4 mb-5 mt-2">
+               Submit
+              </button></div>
+            </div>
+         </form>
+        </div>
+        <div class="w-100 pt-5">
+          <img
+            class="img-fluid w-md-50 potrait"
+            src="./images/website.png"
+            alt="potrait"
+          />
+        </div>
+        <div class="px-5"></div>
+      </div>
+    </section>
+    <!-- Solution End -->
+
+    <!-- Plans Start -->
+    <section>
+      <div
+        class="commonBackground d-flex flex-lg-row flex-column p-5 pb-0 gap-5 gap-xl-0 justify-content-around"
+      >
+        <div class="mx-5 px-5"></div>
+        <div>
+          <h2 class="px-5 mx-5 text-center">
+            Our Plans
+          </h2>
+          <p class="px-5 mt-4 text-center">
+            Choose the right SEO for you
+          </p>
+        </div>
+        <div class="mx-5 px-5"></div>
+      </div>
+    </section>
+    <!-- Plans End -->
+
+    <!-- Plan Levels Start -->
+    <section>
+      <div
+        class="planContainer commonBackground d-flex flex-lg-row flex-column px-5 gap-5 gap-xl-0 justify-content-around text-center"
+      >
+        <div class="mx-5 mx-lg-0 px-5"></div>
+        <div class="plan item p-xl-5 my-xl-5">
+          <h6 class="content commonText">Plus</h6>
+          <h6 class="content  py-2 fs-1"><sup class="fs-5 pe-1">$</sup>46<sub class="fs-6">/Month</sub></h6>
+          <h6 class="content py-2">408GB Bandwidth</h6>
+          <h6 class="content py-2">Business & Finance Analysing</h6>
+          <h6 class="content py-2">24 Hour Support</h6>
+          <h6 class="content py-2">Customer Management</h6>
+          <div class="text-center">
+            <button class="planButton btn btn-transparent border border-black py-2 my-3">
+              Get Started
+            </button>
+          </div>
+        </div>
+        <div class="plan item p-xl-5 m-xl-5">
+          <h6 class="content commonText">Beginner</h6>
+          <h6 class="content  py-2 fs-1"><sup class="fs-5 pe-1">$</sup>66<sub class="fs-6">/Month</sub></h6>
+          <h6 class="content py-2">408GB Bandwidth</h6>
+          <h6 class="content py-2">Business & Finance Analysing</h6>
+          <h6 class="content py-2">24 Hour Support</h6>
+          <h6 class="content py-2">Customer Management</h6>
+          <div class="text-center">
+            <button class="planButton btn btn-transparent border border-black py-2 my-3">
+              Get Started
+            </button>
+          </div>
+        </div>
+        <div class="plan item p-xl-5 m-xl-5">
+          <h6 class="content commonText">Advanced</h6>
+          <h6 class="content  py-2 fs-1"><sup class="fs-5 pe-1">$</sup>86<sub class="fs-6">/Month</sub></h6>
+          <h6 class="content py-2">408GB Bandwidth</h6>
+          <h6 class="content py-2">Business & Finance Analysing</h6>
+          <h6 class="content py-2">24 Hour Support</h6>
+          <h6 class="content py-2">Customer Management</h6>
+          <div class="text-center">
+            <button class="planButton btn btn-transparent border border-black py-2 my-3">
+              Get Started
+            </button>
+          </div>
+        </div>
+        <div class="mx-5 mx-lg-0 px-5"></div>
+      </div>
+    </section>
+    <!-- Plan Levels End -->
+
+    <!-- Team Start -->
+    <section>
+      <div
+        class="d-flex flex-lg-row flex-column p-5 pb-0 gap-5 gap-xl-0 justify-content-around"
+      >
+        <div class="mx-5 px-5"></div>
+        <div>
+          <h2 class="px-5 text-center">
+            Our Expert Team <span class="commonText">Members</span>
+          </h2>
+          <p class="px-5 mt-4 text-center">
+            It is a long established fact that a reader will be distracted by the readable content .
+            It is a long established fact that a reader 
+          </p>
+        </div>
+        <div class="mx-5 px-5"></div>
+      </div>
+      <div
+        class="d-flex flex-lg-row flex-column p-5 gap-5 gap-xl-0 justify-content-around">
+        <div class="mx-5 px-5"></div>
+        <div class="team p-xl-5 my-xl-5 text-center">
+          <img src="./images/muriel.png" alt="symbol" />
+          <h5 class="pt-3 content">Muriel Whee</h5>
+          <p>Marketing Manager</p>
+          <p class="mt-3">
+            <i class="content fs-5 p-2 fa-brands fa-google"></i>
+            <i class="content fs-5 p-1 fa-brands fa-instagram"></i>
+            <i class="content fs-5 p-1 fa-brands fa-twitter"></i>
+            <i class="content fs-5 p-2 fa-brands fa-facebook-f"></i>
+          </p>
+        </div>
+        <div class="team p-xl-5 m-xl-5 text-center">
+          <img src="./images/john.png" alt="symbol" />
+          <h5 class="pt-3 content">John Doe</h5>
+          <p>Marketing Manager</p>
+          <p class="mt-3">
+            <i class="content fs-5 p-2 fa-brands fa-google"></i>
+            <i class="content fs-5 p-1 fa-brands fa-instagram"></i>
+            <i class="content fs-5 p-1 fa-brands fa-twitter"></i>
+            <i class="content fs-5 p-2 fa-brands fa-facebook-f"></i>
+          </p>
+        </div>
+        <div class="team p-xl-5 m-xl-5 text-center">
+          <img src="./images/clay.png" alt="symbol" />
+          <h5 class="pt-3 content">Clay Porter</h5>
+          <p>Marketing Manager</p>
+          <p class="mt-3">
+            <i class="content fs-5 p-2 fa-brands fa-google"></i>
+            <i class="content fs-5 p-1 fa-brands fa-instagram"></i>
+            <i class="content fs-5 p-1 fa-brands fa-twitter"></i>
+            <i class="content fs-5 p-2 fa-brands fa-facebook-f"></i>
+          </p>
+        </div>
+        <div class="team p-xl-5 m-xl-5 text-center">
+          <img src="./images/doug.png" alt="symbol" />
+          <h5 class="pt-3 content">Doug Norm</h5>
+          <p>Marketing Manager</p>
+          <p class="mt-3">
+            <i class="content fs-5 p-2 fa-brands fa-google"></i>
+            <i class="content fs-5 p-1 fa-brands fa-instagram"></i>
+            <i class="content fs-5 p-1 fa-brands fa-twitter"></i>
+            <i class="content fs-5 p-2 fa-brands fa-facebook-f"></i>
+          </p>
+        </div>
+        <div class="mx-5 px-5"></div>
+      </div>
+    </section>
+    <!-- Team End -->
+
+    <!-- Clients Start -->
+    <section>
+      <div
+        class="d-flex flex-lg-row flex-column p-5 pb-0 gap-5 gap-xl-0 justify-content-around"
+      >
+        <div class="mx-5 px-5"></div>
+        <div>
+          <h2 class="px-5 text-center">
+            Our Clients Say
+          </h2>
+          <p class="px-5 mt-4 text-center">
+            It is a long established fact that a reader will be distracted by the readable content .It is a 
+          </p>
+        </div>
+        <div class="mx-5 px-5"></div>
+      </div>
+      <div
+        class="d-flex flex-lg-row flex-column p-5 gap-5 gap-xl-0 justify-content-around">
+        <div class="clients item p-xl-5 my-xl-5 text-center">
+          <p>It is a long established fact that a reader will be distracted by the readable content .
+          It is a long established fact that a reader</p><br>
+          <img class="pt-3" src="./images/firstShipBuilder.png" alt="symbol" />
+          <h5 class="pt-3 content">Clay Porter</h5>
+          Ship Builder
+        </div>
+        <div class="clients item p-xl-5 m-xl-5 text-center">
+          <p>It is a long established fact that a reader will be distracted by the readable content .
+          It is a long established fact that a reader</p><br>
+          <img class="pt-3" src="./images/secondShipBuilder.png" alt="symbol" />
+          <h5 class="pt-3 content">Clay Porter</h5>
+          Ship Builder
+        </div>
+      </div>
+    </section>
+    <!-- Clients End -->
+    
+   <!-- Subscribe Start -->
+   <section>
+    <div class="d-flex flex-lg-row flex-column text-center">
+      <div class="px-5 mx-5"></div>
+      <div class="commonBackground w-100">
+        <h1 class="p-5 pb-0">
+          Subscribe & find the perfect Cosmetics
+        </h1>
+        <p class="py-3 px-5">
+          Enter your email and get updated new products & news
+        </p>
+        <form>
+        <div class="d-flex flex-xl-row flex-column justify-content-center mx-5 px-5">
+            <div class="ms-2 my-2 "><input type="text" class="form-control" placeholder="Name"></div>
+            <div class="ms-2 my-2 ms-xl-3"><input type="email" class="form-control" placeholder="Email Adress"></div>
+            <div><button type="button" class="btn btn-primary differentColour py-2 px-4 mx-xl-4 mb-5 mt-2">
+             Subscribe
+            </button></div>
+          </div>
+       </form>
+      </div>
+      <div class="px-5 mx-5"></div>
+    </div>
+  </section>
+  <!-- Subscribe End -->
+  
+  <!-- Footer Start -->
+  <footer>
+    <div class="d-flex flex-column mx-5 px-5">
+      <div class="text-center"><img src="./images/nuvosa.png" alt="symbol"/></div>
+      <div class="d-flex flex-column flex-md-row justify-content-center">
+        <div>
+          <a class="nav-link p-4" href="#">Overview</a>
+        </div>
+        <div class="nav-item p-4">
+          <a class="nav-link" href="#">Privacy</a>
+        </div>
+        <div class="nav-item p-4">
+          <a class="nav-link" href="#">Carrers</a>
+        </div>
+        <div class="nav-item p-4">
+          <a class="nav-link" href="#">Help</a>
+        </div>
+        <div class="nav-item p-4">
+          <a class="nav-link" href="#">privacy</a>
+        </div>
+      </div>
+      <hr>
+      <div class="d-flex flex-column flex-lg-row justify-content-lg-between">
+        <div class="p-2">Copyright © 2023 nuvosa, All rights reserved.</div>
+        <div class="d-lg-flex">
+          <div>
+            <a class="nav-link p-2" href="#">Terms of use</a>
+          </div>
+          <div class="nav-item p-2">
+            <a class="nav-link" href="#">copyright & trademark</a>
+          </div>
+          <div class="nav-item p-2">
+            <a class="nav-link" href="#">Policy</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer End -->
+
   </body>
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-    crossorigin="anonymous"
-  ></script>
 </html>
